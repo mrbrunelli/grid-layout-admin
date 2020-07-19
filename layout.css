@@ -44,6 +44,7 @@ picture {
 
 .user-photo {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 3px solid #31323d;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
