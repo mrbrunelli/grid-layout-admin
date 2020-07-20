@@ -23,8 +23,9 @@ text #fff
 
 #container {
     display: grid;
-    grid-template-columns: minmax(100px, 300px) 1fr;
+    grid-template-columns: minmax(100px, 200px) 1fr;
     grid-template-rows: 100vh;
+    transition: all 500ms ease;
 }
 
 #sidebar {
@@ -43,8 +44,8 @@ picture {
 }
 
 .user-photo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 3px solid #31323d;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
