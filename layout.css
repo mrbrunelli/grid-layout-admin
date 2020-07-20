@@ -23,14 +23,14 @@ text #fff
 
 #container {
     display: grid;
-    grid-template-columns: minmax(100px, 200px) 1fr;
+    grid-template-columns: minmax(100px, 250px) auto;
     grid-template-rows: 100vh;
-    transition: all 500ms ease;
+    transition: all 1000ms ease;
 }
 
 #sidebar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 200px 1fr;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.5);
     z-index: 1;
@@ -41,6 +41,7 @@ picture {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 5px;
 }
 
 .user-photo {
