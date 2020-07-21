@@ -17,8 +17,6 @@ text #fff
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
     list-style: none;
-    background-color: #0e1013;
-    color: #fff;
 }
 
 #container {
@@ -26,6 +24,7 @@ text #fff
     grid-template-columns: minmax(100px, 250px) auto;
     grid-template-rows: 100vh;
     transition: all 1000ms ease;
+    z-index: 2;
 }
 
 #sidebar {
@@ -33,7 +32,13 @@ text #fff
     grid-template-columns: auto;
     grid-template-rows: 200px 1fr;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 10;
+    background-color: #0e1013;
+    color: #fff;
+}
+
+#sidebar a {
+    color: #fff;
 }
 
 picture {
@@ -50,4 +55,19 @@ picture {
     border-radius: 50%;
     border: 3px solid #31323d;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mylist {
+    border-top: 1px solid #222;
+    padding: 10px 0 10px 0;
+    transition: 300ms;
+}
+
+.mylist:hover {
+    padding-left: 20px;
+    border-right: 2px solid #fff;
 }

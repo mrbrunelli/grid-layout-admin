@@ -4,6 +4,28 @@
     grid-template-rows: 80px auto 80px;
 }
 
+header {
+    background-color: #0e1013;
+    color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
 #content {
-    background-color: #31323d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.mycontent {
+    padding: 50px;
+    background-color: #fafafa;
+    margin: 30px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.shadow {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
