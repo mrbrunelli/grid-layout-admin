@@ -1,7 +1,7 @@
 #app {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 70px auto 70px;
 }
 
 header {
@@ -26,6 +26,12 @@ header {
     border-radius: 5px;
 }
 
-.shadow {
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+footer {
+    background-color: #fafafa;
+}
+
+.myfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

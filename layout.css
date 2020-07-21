@@ -21,9 +21,8 @@ text #fff
 
 #container {
     display: grid;
-    grid-template-columns: minmax(100px, 250px) auto;
+    grid-template-columns: minmax(100px, 100px) auto;
     grid-template-rows: 100vh;
-    transition: all 1000ms ease;
     z-index: 2;
 }
 
@@ -70,4 +69,5 @@ picture {
 
 .mylist:hover {
     padding-left: 20px;
+    border-right: 2px solid #fff;
 }

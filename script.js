@@ -1,6 +1,6 @@
 const sidebar = document.querySelector('#container')
 /** grid-template-columns: minmax(100px, 200px) auto */
-let state = 1
+let state = 0
 function toggle() {
     if (state === 1) {
         sidebar.style.gridTemplateColumns = 'minmax(100px, 100px) auto'
