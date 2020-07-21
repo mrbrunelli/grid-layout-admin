@@ -46,12 +46,13 @@ picture {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5px;
+    margin: 20px;
 }
 
 .user-photo {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
     border-radius: 50%;
     border: 3px solid #31323d;
     box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
